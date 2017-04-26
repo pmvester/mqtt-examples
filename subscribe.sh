@@ -1,3 +1,9 @@
 #!/bin/bash
 
-mosquitto_sub -h qc65wr.messaging.internetofthings.ibmcloud.com -t "iot-2/type/+/id/+/evt/+/fmt/+" -i "a:qc65wr:a-qc65wr-bplwfjbxvp" -P "DHxH-pH*unNwN2jCaQ" -u "a-qc65wr-bplwfjbxvp" -q 1 
+org="qc65wr"
+dtype="MyDeviceType"
+did="myDevice"
+apikey="a-qc65wr-bplwfjbxvp"
+token="DHxH-pH*unNwN2jCaQ"
+
+mosquitto_sub -h $org.messaging.internetofthings.ibmcloud.com -t "iot-2/type/+/id/+/evt/+/fmt/+" -i "a:$org:$apikey" -P "$token" -u "$apikey" -q 1 
