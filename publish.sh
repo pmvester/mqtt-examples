@@ -1,9 +1,9 @@
 #!/bin/bash
 
-org="qc65wr"
+org="mqnl6k"
 dtype="MyDeviceType"
 did="myDevice"
-token="1221080932"
+token="20171009"
 topic="k34/heat/feed/water"
 
 b64topic=$(echo $topic | base64)

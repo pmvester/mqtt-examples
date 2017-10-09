@@ -1,9 +1,9 @@
 #!/bin/bash
 
-org="qc65wr"
+org="mqnl6k"
 dtype="MyDeviceType"
 did="myDevice"
-apikey="a-qc65wr-bplwfjbxvp"
-token="DHxH-pH*unNwN2jCaQ"
+apikey="a-mqnl6k-r7qrijpra6"
+token="@9uP!aGDxe7b16(cmS"
 
 mosquitto_sub -h $org.messaging.internetofthings.ibmcloud.com -t "iot-2/type/+/id/+/mon" -i "a:$org:$apikey" -P "$token" -u "$apikey" -q 1 
