@@ -1,10 +1,10 @@
 #!/bin/bash
 
-orgId="b6824e"
 appId="a-b6824e-ltp0wdw6ib"
-token="sakTi)UDn37Kps(iL+"
-dtype="DnxDevice"
 did="dnxDevice1"
+dtype="DnxDevice"
+orgId="b6824e"
+token="sakTi)UDn37Kps(iL+"
 topic="k34/heat/feed/water"
 
 b64topic=$(echo $topic | base64)
