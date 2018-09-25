@@ -1,8 +1,6 @@
 #!/bin/bash
 
 org="b6824e"
-dtype="DnxDevice"
-did="dnxDevice1"
 apikey="a-b6824e-ltp0wdw6ib"
 token="sakTi)UDn37Kps(iL+"
 

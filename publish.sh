@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script assumes that the security level in the
+# IBM Watson IoT Platform is set to "TLS Optional".
+
 did="dnxDevice1"
 dtype="DnxDevice"
 orgId="b6824e"
@@ -11,7 +14,8 @@ n=0
 while true
 do
 
-  n=$[n+1]
+  # create a random numeric value in the range 0 to 99
+  n=$(($RANDOM % 100))
   ts=$(date +%s)
 
   json="{\"time\": $ts, \"value\": $n}"
