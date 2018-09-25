@@ -6,11 +6,10 @@ orgId="s8sb6o"
 token="1221080932"
 topic="temp"
 
-n=0
-
 while true
 do
 
+  # create a random value in the range 0 to 42 (what else!)
   n=$(($RANDOM % 43))
   ts=$(date +%s)
 
