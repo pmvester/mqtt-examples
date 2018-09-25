@@ -9,7 +9,7 @@ topic="temp"
 while true
 do
 
-  # create a random value in the range 0 to 42 (what else!)
+  # create a random integer in the range 0 to 42
   n=$(($RANDOM % 43))
   ts=$(date +%s)
 
