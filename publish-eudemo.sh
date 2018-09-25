@@ -11,7 +11,7 @@ n=0
 while true
 do
 
-  n=$[n+1]
+  n=$(($RANDOM % 43))
   ts=$(date +%s)
 
   json="{\"time\": $ts, \"value\": $n}"
