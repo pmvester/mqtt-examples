@@ -1,13 +1,11 @@
 #!/bin/bash
 
-# iot-2/type/${thingTypeId}/id/$thingId/intf/${logicalInterfaceId}/evt/state
-
-org="s8sb6o"
-typeId="MV_EnvType"
-thingId="MV_k34"
-logicalInterfaceId="5c28fd28fd684f00274b0ec1"
 apikey="a-s8sb6o-cqz4iq63ek"
+logicalInterfaceId="5c28fd28fd684f00274b0ec1"
+org="s8sb6o"
+thingId="MV_k34"
 token="Q*soLh0u7V6ed0XkLh"
+typeId="MV_EnvType"
 
 topic1="iot-2/thing/type/$typeId/id/$thingId/intf/$logicalInterfaceId/evt/state"
 topic2="iot-2/thing/type/$typeId/id/$thingId/err/data"
